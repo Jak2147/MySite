@@ -137,12 +137,12 @@ h1 {
 }
 
 .card {
-    background-color: rgba(34, 34, 92, 0.932);
-    border: 3px solid yellow
+    background: linear-gradient(rgb(185, 100, 219), 10%, pink);
+    /* border: 3px solid yellow */
 }
 
 .card-header {
-    margin-left: 5%;
+    /* margin-left: 5%; */
     color: white;
 }
 
@@ -190,7 +190,7 @@ footer p:nth-child(1) {
 }
 
 h4 {
-    color: yellow;
+    color: rgb(0, 0, 0);
     font-size: 200%;
 }
 
