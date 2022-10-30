@@ -24,8 +24,8 @@ a {
 }*/
 
 .navbar {
-    background: linear-gradient(blue, 10%);
-    border-bottom: 7px solid yellow;
+    background: linear-gradient(pink, 10%);
+    /* border-bottom: 7px solid yellow; */
 }
 
 
@@ -59,30 +59,8 @@ h5 {
 
 .links:hover {
     text-decoration: yellow;
-    border-bottom: yellow;
+    border-bottom: rgb(235, 235, 224);
 }
-
-
-/*nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    background-color: #ffffff;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-    padding: 0px 5%;
-}
-
-nav ul {
-    display: flex;
-}
-
-nav ul li a {
-    margin: 30px;
-    color: rgb(22, 21, 21);
-    font-weight: 700;
-    font-size: 15px;
-}*/
 
 h1 {
     font-size: 60px;
@@ -112,16 +90,6 @@ h1 {
     margin: 45px 0px 25px;
     line-height: 0px;
 }
-
-
-/* .text-container {
-    position: absolute;
-    -ms-grid-row-align: center;
-    margin-left: 40%;
-    left: 13%;
-    top: 42%;
-    transform: translate(-13%, -42%);
-} */
 
 #text-container {
     margin-top: 10rem;
