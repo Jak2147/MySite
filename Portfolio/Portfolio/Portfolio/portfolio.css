@@ -42,6 +42,22 @@ h5 {
     margin-left: 5rem;
 }
 
+.cv {
+    background: linear-gradient(pink, 10%);
+    animation-name: effects;
+    animation-duration: 100s;
+    border-radius: 20%;
+}
+
+@keyframes effects {
+    from {
+        background: linear-gradient(blue, 10%, pink);
+    }
+    to {
+        background: linear-gradient(pink, 10%, blue);
+    }
+}
+
 .portfolio {
     border: 2px solid transparent;
 }
